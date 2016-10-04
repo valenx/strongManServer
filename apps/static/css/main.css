@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'strongUbuntu';
+  src: url("../../static/fonts/Ubuntu-Regular.eot");
+  /* IE9 Compat Modes */
+
+  src: url("../../static/fonts/Ubuntu-Regular.eot?#iefix") format("embedded-opentype"), url("../../static/fonts/Ubuntu-Regular.woff") format("woff"), url("../../static/fonts/Ubuntu-Regular.ttf") format("truetype"), url("../../static/fonts/Ubuntu-Regular.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 200px;
+  font-family: 'strongUbuntu', sans-serif;
+}
+
+.navbar-brand > img {
+  display: inline-block;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+.navbar-inverse {
+  background-color: #222529;
+}
+.navbar-inverse .navbar-brand {
+  color: #EDEDED;
+}
+.navbar-inverse .navbar-brand:hover {
+  color: #BABABA;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #EDEDED;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #BABABA;
+}
+.navbar-nav .navbar-right:last-child {
+  margin-right: 0;
+}
+
+.content {
+  padding-bottom: 60px;
+}
+.content h1 {
+  padding-top: 30px;
+  padding-bottom: 12px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  min-height: 200px;
+  color: #9D9D9D;
+  background-color: #222529;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+.footer a {
+  color: #9D9D9D;
+}
+.footer a:hover {
+  color: #FFF;
+}
+.footer .logo {
+    display: inline-block;
+}
+.footer .logo .fa {
+  font-size: 3em;
+  color: #EDEDED;
+  color: #9D9D9D;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.footer .logo .fa:hover {
+  color: #BABABA;
+  color: #FFF;
+}
+.footer .copyright {
+  margin-top: 50px;
+}
+
+/* site specific */
