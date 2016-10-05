@@ -1,11 +1,11 @@
 from collections import OrderedDict
 
 from django.contrib import messages
-from django.shortcuts import render
 from django.contrib.auth import login as auth_login, authenticate
+from django.shortcuts import render
 
-from vici.wrapper.exception import ViciSocketException, ViciLoadException
-from vici.wrapper.wrapper import ViciWrapper
+from apps.vici.wrapper.exception import ViciSocketException, ViciLoadException
+from apps.vici.wrapper.wrapper import ViciWrapper
 from apps.forms import PasswordChangeForm
 
 
